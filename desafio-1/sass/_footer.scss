@@ -1,0 +1,27 @@
+@media only screen and (max-width: 500px) {
+    .footer {
+        background: #ddd;
+        text-align: end;
+        padding: 12px 8px;
+
+        .footer-list {
+            display: flex;
+            gap: 1em;
+            justify-content: flex-end;
+            margin-bottom: 1em;
+        }
+    }
+}
+
+.footer {
+    background: #ddd;
+    text-align: end;
+    padding: 12px 8px;
+
+    .footer-list {
+        display: flex;
+        gap: 1em;
+        justify-content: flex-end;
+        margin-bottom: 1em;
+    }
+}

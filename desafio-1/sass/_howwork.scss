@@ -1,0 +1,19 @@
+@media only screen and (max-width: 500px) {
+    .video {
+        max-width: 300px;
+        margin: 0 auto;
+
+        iframe {
+            max-width: 100%;
+        }
+    }
+}
+
+.video {
+    max-width: 500px;
+    margin: 0 auto;
+
+    iframe {
+        max-width: 100%;
+    }
+}

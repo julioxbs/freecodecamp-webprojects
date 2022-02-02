@@ -1,0 +1,62 @@
+@media only screen and (max-width: 500px) {
+    .hero {
+        text-align: center;
+        margin-top: 2em;
+    
+        .hero-title {
+            margin-bottom: 1em;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: clamp(12px, 1em, 18px);
+        }
+    
+        .hero-form {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            input {
+                padding: 4px 8px;
+            }
+
+            button {
+                padding: 4px 8px;
+                background-color: yellow;
+                color: #000;
+                border: none;
+                font-weight: bold;
+                margin-top: 1em;
+            }
+        }
+    }
+}
+
+.hero {
+    text-align: center;
+
+    .hero-title {
+        margin-bottom: 1em;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: clamp(12px, 2em, 18px);
+    }
+
+    .hero-form {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        input {
+            padding: 4px 8px;
+        }
+
+        button {
+            padding: 8px 12px;
+            background-color: yellow;
+            color: #000;
+            border: none;
+            font-weight: bold;
+            margin-top: 1em;
+        }
+    }
+}

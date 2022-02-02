@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+section > h1 {
+    margin: 1em;
+}
+
+section ul {
+    padding: 0 50px;
+}
+
+section p {
+    margin: .5em 0;
+}
+
+aside > ul {
+    list-style: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 88%;
+}
+
+aside {
+    border-right: 2px solid #000;
+    min-width: 290px;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+aside h1 {
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+aside ul li {
+    padding: 10px 30px;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #333;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+main {
+    padding: 20px 40px;
+    position: absolute;
+    margin-left: 310px;
+    margin-bottom: 110px;
+}
+
+@media only screen and (max-width: 768px) {
+    aside {
+        top: 0;
+        height: 49%;
+        position: absolute;
+        border: none;
+        width: 100%;
+    }
+
+    main {
+        position: relative;
+        margin-left: 0;
+        margin-top: 270px;
+    }
+}
